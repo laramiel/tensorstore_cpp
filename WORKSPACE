@@ -48,7 +48,7 @@ perl_register_toolchains()
 http_archive(
     name = "tensorstore",
     strip_prefix = "tensorstore-27d221b98073a46b6436aca09bb3cdc578b10d61",
-    url = "https://github.com/laramiel/tensorstore/archive/27d221b98073a46b6436aca09bb3cdc578b10d61.tar.gz",
+    url = "https://github.com/google/tensorstore/archive/27d221b98073a46b6436aca09bb3cdc578b10d61.tar.gz",
 )
 
 load("@tensorstore//:external.bzl", "tensorstore_dependencies")
